@@ -29,8 +29,8 @@ export const UserStatusList: React.FC = () => {
   type TtlKey = keyof typeof ttlTable;
 
   const [content, setContent] = useState<string>(initContent);
-  const [linkUrl, setLinkUrl] = useState<string>(initLinkUrl);
-  const [ttlKey, setTtlKey] = useState<string>("never");
+  const [linkUrl, _setLinkUrl] = useState<string>(initLinkUrl);
+  const [ttlKey, _setTtlKey] = useState<string>("never");
 
   const isDirty = content.trim() !== initContent || (initContent !== "" && linkUrl !== initLinkUrl);
 
