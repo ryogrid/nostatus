@@ -39,8 +39,8 @@ export const App = () => {
       >
         <div className={css({ mr: "auto" })}></div>
         <div className={css({ lineHeight: "tight", textAlign: "center" })}>
-          <h1 className={css({ textStyle: "title" })}>nostatus</h1>
-          <p className={css({ textStyle: "tagline", color: "text.sub" })}>Have an eye on your friends' status.</p>
+          <h1 className={css({ textStyle: "title" })}>nostatus chat</h1>
+          <p className={css({ textStyle: "tagline", color: "text.sub" })}>Let's chat with nostr status!</p>
         </div>
         <div className={css({ ml: "auto" })}>
           <Suspense>
