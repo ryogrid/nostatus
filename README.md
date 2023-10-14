@@ -1,3 +1,9 @@
+This repository is of "nostatus chat".  
+"nostatus chat" is little bit customized "nostatus".  
+[nostatus chat](https://nostatus-chat.vercel.app/)
+
+---
+
 <p align="center">
 <img src="./docs/logo.svg" align="center" width="64" height="64">
 </p>
