@@ -221,7 +221,7 @@ const MenuItemGitHubRepo = () => {
     <DropdownMenuItem asChild>
       <a
         className={menuItem()}
-        href="https://github.com/jiftechnify/nostatus"
+        href="https://github.com/ryogrid/nostatus"
         target="_blank"
         rel="external noreferrer"
       >
