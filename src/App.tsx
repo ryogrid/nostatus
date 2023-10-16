@@ -10,6 +10,7 @@ import { UserStatusList } from "./components/UserStatusList";
 import { useMyPubkey, useWriteOpsEnabled } from "./states/nostr";
 import { useColorTheme } from "./states/theme";
 import { button } from "./styles/recipes";
+import { Analytics } from '@vercel/analytics/react';
 
 export const App = () => {
   useColorTheme();
@@ -51,6 +52,7 @@ export const App = () => {
 
       <main className={css({ h: "100%", w: "100vw" })}>
         <Suspense>{pubkey !== undefined ? <UserStatusList /> : <LoginForm />}</Suspense>
+        <Analytics />
       </main>
 
       {/* floating action button that triggers UpdateStatusDialog */}
