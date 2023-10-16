@@ -4,6 +4,9 @@ import { App } from "./App.tsx";
 import "./locales/i18n";
 
 import "./index.css";
+import { inject } from '@vercel/analytics';
+
+inject();
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
